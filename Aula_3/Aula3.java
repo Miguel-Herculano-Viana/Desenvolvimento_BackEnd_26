@@ -15,7 +15,7 @@ public class Aula3 {
         System.out.println("\n Aluno: " + nome + "\n Media: " + media);
 
         if (media >= 7){
-            System.out.println("Situação: Aluno aprovado!");
+            System.out.println("Situação: Aluno Aprovado!");
         }
         else if (media >= 5){
             System.out.println("Situação: Aluno de Recuperação!");
