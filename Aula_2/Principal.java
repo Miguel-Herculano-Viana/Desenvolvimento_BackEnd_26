@@ -1,10 +1,11 @@
 package Aula_2;
 
-public class principal {
+public class Principal {
     //metodo principal para executar o codigo
     public static void main(String[] args){
         //cria objeto
-        carro meuCarro = new carro();
+        Carro meuCarro = new Carro("Ferrari", "Preto");
+        System.out.println("Carro marca: " + meuCarro.marca + "cor " + meuCarro.cor);
 
         //atribui uma cor e a marca ao objeto
         meuCarro.marca = "Mitsubishi";
